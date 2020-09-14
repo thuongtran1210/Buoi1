@@ -1,0 +1,11 @@
+print("Nhập vào một chuỗi: ",end='')
+string=input()
+print("Số kí tự trong chuỗi: ",end='')
+print(len(string))
+print("Kí tự đầu tiên trong chuỗi là: ",end='')
+print(string[0])
+print("Nhập vào thứ tự cần tìm: ",end='')
+a=int(input())
+c=a-1
+print("Thứ tự bạn nhập là chữ: ",end='')
+print(string[c])

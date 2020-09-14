@@ -1,0 +1,5 @@
+print("Nhập số nguyên thứ nhất: ",end='')
+a =int(input())
+print("Nhập số nguyên thứ hai: ",end='')
+b =int(input())
+print("Tổng bình phương hai số nguyên là: " +str(a*a+b*b))
